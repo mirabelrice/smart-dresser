@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#466b79" >
+
+    <!-- Title Bar -->
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_style" >
+
+        <ImageButton
+            android:id="@+id/menu_createOutfit_button"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_icon" />
+
+        <TextView
+            android:id="@+id/create_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:text="create outfit"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/weather_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="sunny"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/sun" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="80°F"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_widget"
+        android:layout_above="@+id/buttons"
+        android:gravity="center" 
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageButton
+            android:id="@+id/left_arrow_imgButton"
+            android:layout_width="70dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundcorner"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/left_arrow"
+             />
+
+        <ListView
+            android:id="@+id/create_outfit_list"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:divider="@android:color/transparent"
+            android:layout_gravity="center"
+            
+             >
+        </ListView>
+
+        <ImageButton
+            android:id="@+id/right_arrow_imgButton"
+            android:layout_width="70dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right_arrow" 
+            />
+
+    </LinearLayout>
+
+    <!-- Wear and favorite buttons -->
+
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="20dp" >
+
+        <Button
+            android:id="@+id/wear_button"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button_blue"
+            android:text="Wear"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/pickNewItem_button"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="34dp"
+            android:background="@drawable/button_blue"
+            android:text="Change Item"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

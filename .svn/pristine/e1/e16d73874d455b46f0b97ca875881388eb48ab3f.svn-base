@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Dresser</string>
+    <string name="action_settings">Settings</string>
+    <string name="Color">Color</string>
+    <string name="Type">Type</string>
+    <string name="View">View Closet</string>
+    <string name="selectColor">Select a Color</string>
+    <string name="selectStyle">Select a style</string>
+    <string name="ViewItem">View Item</string>
+    <string name="EditItem">Edit Item</string>
+    <string name="History">History</string>
+    <string name="Wear">Wear</string>
+    <string name="mannequin">Mannequin</string>
+    <string name="Edit">Edit</string>
+    <string name="Items">Items</string>
+    <string name="Outfits">Outfits</string>
+
+    <string-array name="styleArray">
+        <item>All Styles</item>
+        <item>Tops</item>
+        <item>Bottoms</item>
+        <item>Outerwears</item>
+        <item>Shoes</item>
+        <item>Dress</item>
+    </string-array>
+    <string-array name="type_array">
+        <item>Top</item>
+        <item>Bottom</item>
+        <item>Outerwear</item>
+        <item>Shoes</item>
+        <item>Dress</item>
+    </string-array>
+    <string-array name="color_array">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Denim</item>
+    </string-array>
+    <string-array name="colorArray">
+        <item>All Colors</item>
+        <item>Color</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Denim</item>
+    </string-array>
+    <string-array name="length_array">
+        <item>Long</item>
+        <item>Short</item>
+    </string-array>
+    <string-array name="editItemArray">
+        <item>Change Picture</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#466b79"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_style" >
+        
+     <ImageButton
+         android:id="@+id/menu_viewItem_button"
+         android:layout_width="90dp"
+         android:layout_height="70dp"
+         android:layout_alignParentLeft="true"
+         android:layout_marginTop="0dp"
+         android:background="@android:color/transparent"
+         android:scaleType="fitXY"
+         android:src="@drawable/menu_icon" />
+    
+       `<TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="View Item"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+
+       <ImageButton
+           android:id="@+id/edit_imgButton"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_centerVertical="true"
+           android:layout_toLeftOf="@+id/delete_imgButton"
+           android:background="@android:color/transparent"
+           android:scaleType="fitXY"
+           android:src="@drawable/edit_icon" />
+
+       <ImageButton
+           android:id="@+id/delete_imgButton"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:background="@android:color/transparent"
+           android:scaleType="fitXY"
+           android:src="@drawable/delete_icon" />
+        
+     </RelativeLayout>
+            
+       <ImageView
+           android:id="@+id/view_item_imageView"
+           android:layout_width="400dp"
+           android:layout_height="400dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="30dp"
+           android:background="@layout/image_border"
+           android:scaleType="centerCrop" />
+        
+    
+    <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:orientation="horizontal"	>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="type:"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+        
+		<TextView
+		    android:id="@+id/type_viewItem_textView"
+		    android:layout_width="400dp"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="20dp"
+		    android:textColor="#ffffff"
+		    android:textSize="40sp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="color:"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+        
+      <TextView
+          android:id="@+id/color_viewItem_textView"
+          android:layout_width="400dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:textColor="#ffffff"
+          android:textSize="40sp" />
+        
+    </LinearLayout>  
+	
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="length:"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+        
+      <TextView
+          android:id="@+id/length_viewItem_textView"
+          android:layout_width="400dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:textColor="#ffffff"
+          android:textSize="40sp" />
+        
+    </LinearLayout> 
+    <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"	
+         android:layout_marginBottom="10dp"	>
+      
+    <Button
+        android:id="@+id/wear_viewItem_button"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_blue"
+        android:text="wear"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+     <Button
+         android:id="@+id/favorite_button"
+         android:layout_width="160dp"
+         android:layout_height="80dp"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/button_blue"
+         android:text="favorite"
+         android:textColor="#ffffff"
+         android:textSize="40sp" />
+    
+   </RelativeLayout> 
+    
+
+</LinearLayout>

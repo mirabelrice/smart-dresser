@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FEFCFF" >
+    
+    <!-- Title Bar -->
+<RelativeLayout
+    	 android:id="@+id/header" 
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:background="@drawable/textview_style"	>
+         
+	  <ImageButton
+	      android:id="@+id/menu_createOutfit_button"
+	      android:layout_width="55dp"
+	      android:layout_height="match_parent"
+	      android:src="@drawable/menu_icon"
+	      android:layout_alignParentLeft="true"
+	      android:background="@android:color/transparent"
+	      android:scaleType="fitXY" />
+    
+     `<TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Create Outfit"
+        android:textColor="#2B3856"
+        android:textSize="18sp" />
+    
+</RelativeLayout>
+    
+       <Button
+         android:id="@+id/createOutfitHome_suggestOutfit_button"
+         android:layout_width="wrap_content"
+         android:layout_height="25dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/button_blue"
+         android:textColor="#ffffff"
+         android:textSize="15sp"
+         android:textStyle="bold|italic"
+         android:typeface="sans" 
+         android:text="Suggest Outfit" />
+       
+       <Button
+         android:id="@+id/createOutfitHome_pickItem_button"
+         android:layout_width="wrap_content"
+         android:layout_height="25dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/button_blue"
+         android:textColor="#ffffff"
+         android:textSize="15sp"
+         android:textStyle="bold|italic"
+         android:typeface="sans" 
+         android:text="Pick an Item" />
+        
+
+</LinearLayout>
